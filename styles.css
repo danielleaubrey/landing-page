@@ -1,32 +1,32 @@
 body {
-    display: flex;
-    flex-direction: column;
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
 }
 
 .header {
-    background-color: #666699;
-    display: flex;
-    justify-content: center;
     padding: 10px;
-    height: 50px;
+    height: 10vh;
+    background-color: #DA6E8A;
+    display: flex;
+    justify-content: space-around;
 }
 
 h3 {
-    display: flex;
-    align-items: center;
     font-size: 25px;
     color: white;
-    flex-basis: 50%;
+    display: flex;
+    align-items: center;
 }
 
 ul {
-    display: flex;
     list-style-type: none;
-    align-items: center;
     padding: 0;
+    display: flex;
+    align-items: center;
     gap: 15px;
 }
 
@@ -37,32 +37,81 @@ a {
 }
 
 button {
-    padding: 20px;
-    color: black;
-    background-color: aquamarine;
-    border-radius: 18%;
+    padding: 15px;
+    color: white;
+    background-color: #FFA7A7;
+    border-radius: 20%;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 13px;
+}
+
+button:hover {
+    background-color: #CB2754;
 }
 
 .first-content {
+    padding: 15px;
+    background-color: #DA6E8A;
     display: flex;
     justify-content: center;
     gap: 35px;
-    background-color: #666699;
-    height: 350px;
+    height: 40vh;
 }
 
 .first-content-a {
+    color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    color: white;
     flex-basis: 25%;
 }
 
 .first-content-b {
     display: flex;
-    padding-bottom: 10px;
-    flex-basis: 25%;
+}
+
+.first-content-b img {
+    max-height: 40vh;
+}
+
+.second-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.variation-title {
+    display: flex;
+    justify-content: center;
+}
+
+.variation-title h3 {
+    font-size: 25px;
+    color: #CB2754;
+    font-weight: bold;
+}
+
+.variation-box {
+    display: flex;
+    justify-content: center;
+}
+
+.variation {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+
+.variation img {
+    height: 100px;
+    width: 100px;
+}
+
+.variation p {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #CB2754;
 }
