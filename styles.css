@@ -4,13 +4,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
 }
 
 .header {
     padding: 10px;
-    height: 10vh;
-    background-color: #DA6E8A;
+    background-color: #CB2754;
     display: flex;
     justify-content: space-around;
 }
@@ -38,24 +36,24 @@ a {
 
 button {
     padding: 15px;
-    color: white;
-    background-color: #FFA7A7;
-    border-radius: 20%;
+    color: #CB2754;
+    background-color: #E5E7EB;
+    border-radius: 12px;
     font-weight: bold;
     font-size: 13px;
 }
 
 button:hover {
     background-color: #CB2754;
+    color: #E5E7EB;
 }
 
 .first-content {
-    padding: 15px;
-    background-color: #DA6E8A;
+    padding: 20px;
+    background-color: #CB2754;
     display: flex;
     justify-content: center;
     gap: 35px;
-    height: 40vh;
 }
 
 .first-content-a {
@@ -75,9 +73,9 @@ button:hover {
 
 .second-content {
     padding: 15px;
+    height: 40vh;
     display: flex;
     flex-direction: column;
-    height: 50vh;
 }
 
 .variation-title {
@@ -114,4 +112,56 @@ button:hover {
     font-weight: bold;
     text-align: center;
     color: #CB2754;
+}
+
+.third-content {
+    padding: 50px;
+    background-color: #E5E7EB;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-content h3 {
+    font-style: italic;
+    font-size: 30px;
+    color: #CB2754;
+    font-weight: 400;
+}
+
+.third-content div {
+    max-width: 600px;
+    text-align: center;
+}
+
+.fourth-content {
+    padding: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-content-a {
+    padding: 20px;
+    min-width: 50%;
+    max-height: 5%;
+    background-color: #CB2754;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.fourth-content h3 {
+    font-size: 25px;
+}
+
+.fourth-content p {
+    font-size: 18px;
+    color: #FFA7A7;
+    font-weight: 300;
 }
